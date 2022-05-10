@@ -1,7 +1,6 @@
 import os
 import qrcode
-import base64
-from flask import Flask, render_template, request, url_for, jsonify
+from flask import Flask, render_template, request, jsonify
 from PIL import Image
 import pyzbar.pyzbar as pyzbar
 
